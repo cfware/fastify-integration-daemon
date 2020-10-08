@@ -1,0 +1,37 @@
+{
+	"name": "@cfware/fastify-integration-daemon",
+	"version": "0.1.0",
+	"description": "Fastify Integration Daemon",
+	"type": "module",
+	"main": "index.js",
+	"exports": "./index.js",
+	"scripts": {
+		"test": "cfware-lint ."
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/fastify-integration-daemon.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/fastify-integration-daemon/issues"
+	},
+	"homepage": "https://github.com/cfware/fastify-integration-daemon#readme",
+	"dependencies": {
+		"fastify": "^3.5.1",
+		"fastify-babel": "^2.0.0",
+		"fastify-http-proxy": "^4.0.4",
+		"fastify-static": "^3.2.1"
+	},
+	"peerDependencies": {
+		"@babel/core": "^7.11.6"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.6",
+		"@cfware/lint": "^2.0.2"
+	}
+}
