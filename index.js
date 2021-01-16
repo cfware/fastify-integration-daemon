@@ -4,7 +4,9 @@ import fastifyStatic from 'fastify-static';
 import fastifyHttpProxy from 'fastify-http-proxy';
 
 export class FastifyIntegrationDaemon {
-	daemon = fastify();
+	constructor(fastifyOptions) {
+		this.daemon = fastify(fastifyOptions);
+	}
 
 	serveProxy({prefix, upstream, onResponse}) {
 		const replyOptions = onResponse ? {onResponse} : undefined;
