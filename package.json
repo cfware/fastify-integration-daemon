@@ -25,7 +25,9 @@
 		"fastify": "^3.5.1",
 		"fastify-babel": "^2.0.0",
 		"fastify-http-proxy": "^4.0.4",
-		"fastify-static": "^3.2.1"
+		"fastify-static": "^3.2.1",
+		"fastify-websocket": "^3.0.0",
+		"ws": "^7.4.3"
 	},
 	"peerDependencies": {
 		"@babel/core": "^7.11.6"
