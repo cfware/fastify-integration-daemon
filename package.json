@@ -1,6 +1,6 @@
 {
     "name": "@cfware/fastify-integration-daemon",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Fastify Integration Daemon",
     "type": "module",
     "main": "index.js",
