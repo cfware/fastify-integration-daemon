@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.1](https://github.com/cfware/fastify-integration-daemon/compare/v1.0.0...v1.0.1) (2024-03-30)
+
+
+### Bug Fixes
+
+* Websocket proxy was not working ([bfd4dcd](https://github.com/cfware/fastify-integration-daemon/commit/bfd4dcdf2d6d491ac8c3ef095d38db17d719a9ac))
+
 ## [1.0.0](https://github.com/cfware/fastify-integration-daemon/compare/v0.1.1...v1.0.0) (2024-01-29)
 
 
